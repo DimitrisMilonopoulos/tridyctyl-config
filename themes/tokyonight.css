@@ -20,7 +20,7 @@
     --tridactyl-bg: var(--base00);
     --tridactyl-url-fg: var(--base08);
     --tridactyl-url-bg: var(--base00);
-    --tridactyl-highlight-box-bg: var(--base0B);
+    --tridactyl-highlight-box-bg: var(--base0C);
     --tridactyl-highlight-box-fg: var(--base00);
 
     /* Hint character tags */
@@ -36,16 +36,16 @@
 }
 
 #command-line-holder {    order: 1;
-    border: 2px solid var(--base0B);
-    border-radius: 8px 8px 0px 0px;
+    border: 2px solid var(--base0C);
+    border-radius: 8px 8px 8px 8px;
     color: var(--tridactyl-bg);
 }
 
-#tridactyl-input {    padding: 1rem;
+#tridactyl-input {    padding: 0.8rem;
     color: var(--tridactyl-fg);
     width: 90%;
-    font-size: 1.5rem;
-    line-height: 1.5;
+    font-size: 1.2rem;
+    line-height: 1.2;
     background: var(--tridactyl-bg);
     padding-left: unset;
     padding: 1rem;
@@ -132,17 +132,17 @@
     bottom: 0 !important;
     background: var(--tridactyl-bg) !important;
     border: unset !important;
-    border: 1px var(--base0B) solid !important;
+    border: 1px var(--base0C) solid !important;
     font-size: 12pt !important;
     /*font-weight: 200 !important;*/
     padding: 0.8ex !important;
 }
 
-#completions .focused {    background: var(--base0B);
+#completions .focused {    background: var(--base0C);
     color: var(--base00);
 }
 
-#completions .focused .url {    background: var(--base0B);
+#completions .focused .url {    background: var(--base0C);
     color: var(--base00);
 }
 /* #Ocean-normal { */
