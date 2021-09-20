@@ -140,6 +140,7 @@
 
 #completions .focused {    background: var(--base0C);
     color: var(--base00);
+    border-radius: 4px;
 }
 
 #completions .focused .url {    background: var(--base0C);
